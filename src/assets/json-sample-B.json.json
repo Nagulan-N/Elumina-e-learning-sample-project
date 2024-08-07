@@ -1,0 +1,32 @@
+[
+    {
+    "country": "Tamil Country",
+    "papulation": "2200000",
+    "area": "2200000",
+    "nationLanguage":"Tamil",
+    "capital":"Chennai",
+    "currency":"Rupee"
+},{
+    "country": "India",
+    "papulation": "2200000",
+    "area": "2200000",
+    "nationLanguage":"Hindi",
+    "capital":"New Delhi",
+    "currency":"Rupee"
+},{
+    "country": "Saudi Arabia",
+    "papulation": "7110000",
+    "area": "454544",
+    "nationLanguage":"Arabic",
+    "capital":"Riydth",
+    "currency":"Riyal"
+},{
+    "country": "US",
+    "papulation": "2205555",
+    "area": "20000",
+    "nationLanguage":"English",
+    "capital":"New Yorl",
+    "currency":"Dollor"
+}
+
+]

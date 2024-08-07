@@ -1,0 +1,8 @@
+<div class="divStyle">
+<span>JSON : </span>
+<input type="text" [value]="fileName" disabled style="width: 15rem !important;margin-right: 2rem;">
+<button onclick="document.getElementById('fileID').click(); return false;">Browse</button>
+<input type="file" id="fileID" (change)="onFileSelected($event)" style="visibility: hidden;" />
+</div>
+
+

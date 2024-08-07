@@ -1,0 +1,22 @@
+<div style="overflow-y:scroll;min-height: 10vh !important;max-height: 50vh !important;">
+    <table id="customers" *ngIf="jsonData.length !=0">
+        <thead>
+          <tr>
+            <th *ngFor="let header of headers" style="text-transform: capitalize !important;">{{ headerMap.get(header)?headerMap.get(header):header2Map.get(header) }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let row of jsonData">
+            <td *ngFor="let header of headers"> {{ row[header] }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <table id="customers" *ngIf="jsonData.length ==0">
+        <tbody>
+            <tr >
+              <td style="text-align: left !important;font-weight: bold;">The file has not been uploaded yet.</td>
+            </tr>
+          </tbody>
+      </table>
+</div>
+  

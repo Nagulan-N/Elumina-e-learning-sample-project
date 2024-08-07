@@ -1,0 +1,24 @@
+[
+    {
+    "name": "Arun",
+    "age": "22",
+    "gender": "Male",
+    "phoneNumber":"12345"
+},{
+    "name": "Arujun",
+    "age": "22",
+    "gender": "Male",
+    "phoneNumber":"12345"
+},{
+    "name": "Aravinth",
+    "age": "22",
+    "gender": "Male",
+    "phoneNumber":"12345"
+},{
+    "name": "KirubaKaran",
+    "age": "22",
+    "gender": "Male",
+    "phoneNumber":"12345"
+}
+
+]
